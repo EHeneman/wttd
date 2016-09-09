@@ -1,7 +1,7 @@
 from django.shortcuts import render
-from eventex.settings import GOOGLE_MAPS_API_KEY
+from django.conf import settings
 
 
 def home(request):
-    context = {'GOOGLE_MAPS_API_KEY': GOOGLE_MAPS_API_KEY}
+    context = {'GOOGLE_MAPS_API_KEY': settings.GOOGLE_MAPS_API_KEY}
     return render(request, 'index.html', context)
