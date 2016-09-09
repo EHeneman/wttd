@@ -2,6 +2,9 @@
 
 Sistema de Eventos encomendado pela Morena.
 
+[![Build Status](https://travis-ci.org/EHeneman/wttd.svg?branch=master)](https://travis-ci.org/EHeneman/wttd)
+[![Code Health](https://landscape.io/github/EHeneman/wttd/master/landscape.svg?style=flat)](https://landscape.io/github/EHeneman/wttd/master)
+
 ## Como desenvolver?
 
 1. Clone o repositório.
