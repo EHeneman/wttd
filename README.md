@@ -19,12 +19,12 @@ git clone git@github.com:EHeneman/wttd.git wttd
 cd wttd
 python -m venv .wttd
 source .wttd/bin/activate
-pip install -r requirements.txt
+pip install -r requirements-dev.txt
 cp contrib/env-sample .env
 python manage.py test
 ```
 
-## Como fazer o dpeloy?
+## Como fazer o deploy?
 
 1. Crie uma instância no heroku.
 2. Envie as configurações para o heroku.
