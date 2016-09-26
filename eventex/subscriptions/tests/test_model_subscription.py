@@ -2,7 +2,7 @@ from django.test import TestCase
 from eventex.subscriptions.models import Subscription
 from datetime import datetime
 
-class SubscriptionModeltest(TestCase):
+class SubscriptionModelTest(TestCase):
     def setUp(self):
         self.obj = Subscription(
             name="Henrique Bastos",
